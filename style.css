@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0px 0px 0px 0px;
+}
+
+*img{
+    width: 50%;
+    float: right;
+}
+
+*a{
+    text-decoration: none;
+    color: #B4045f;
+}
+
+*a:hover{
+    background-color: #336699;
+    color: #ffffff;
+}
+
+body{
+    font-size: 80%;
+    font-family: Arial, sans-serif;
+    background-color: #B4045f;
+}
+
+#contenedor{
+    width: 750px;
+    margin: 0,auto;
+    height: 100%;
+    background-color: #bef781;
+}
+
+#logo{
+    height: 60px;
+    padding-left: 10px;
+    padding-top: 15px;
+    background-color: #eee;
+    color: #79b30b;
+    background-image: url(logocabecera.jpg);
+}
