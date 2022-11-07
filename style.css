@@ -1,6 +1,6 @@
 *{
-    margin: 0%;
-    padding: 0px 0px 0px 0px;
+    margin: 0, auto;
+    padding: 0px;
 }
 
 *img{
@@ -26,7 +26,7 @@ body{
 
 #contenedor{
     width: 750px;
-    margin: 0,auto;
+    margin: auto;
     height: 100%;
     background-color: #bef781;
 }
@@ -38,4 +38,31 @@ body{
     background-color: #eee;
     color: #79b30b;
     background-image: url(logocabecera.jpg);
+}
+
+#menuhorizontal{
+    width: 100%;
+}
+
+#pie{
+    clear: both;
+    background-color: #333;
+    height: 30px;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#pie .enlaces{
+    float: left;
+}
+
+#pie .enlaces a{
+    text-decoration: none;
+    color: white;
+}
+
+#pie a:hover{
+    background-color:  #336699;
+    color: #ffffff;
 }
